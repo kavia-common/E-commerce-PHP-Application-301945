@@ -641,3 +641,135 @@
 2026-01-19 06:09:20,102 - Knowledge - INFO - ⚡ Total Redis path: 0.92s (vs ~300s from disk)
 2026-01-19 06:09:20,311 - Knowledge - INFO - Saving knowledge to Redis...
 2026-01-19 06:09:20,518 - Knowledge - INFO - Knowledge saved to Redis successfully
+2026-01-19 07:30:35,600 - Knowledge - INFO - Created shared MongoDB connection pool
+2026-01-19 07:30:35,919 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2026-01-19 07:30:36,129 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2026-01-19 07:30:36,340 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=10, max_concurrent_llm_calls=50
+2026-01-19 07:30:37,411 - Knowledge - INFO - 🔍 _load_persisted_knowledge called - checking for Redis optimization
+2026-01-19 07:30:37,607 - Knowledge - WARNING - ❌ load_from_redis method not found - Redis support not attached
+2026-01-19 07:30:37,840 - Knowledge - INFO - load persisted knowledge: begin
+2026-01-19 07:30:38,542 - Knowledge - INFO - Persisted knowledge files in /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/.knowledge have been renamed to use .json
+2026-01-19 07:30:38,755 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:38,928 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:39,105 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/shop.php
+2026-01-19 07:30:39,287 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:39,538 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:39,702 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/cart.php
+2026-01-19 07:30:39,874 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:40,049 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:40,232 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/css/style.css
+2026-01-19 07:30:40,410 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:40,574 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:40,767 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/css/admin_style.css
+2026-01-19 07:30:40,976 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:41,204 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:41,364 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/search_page.php
+2026-01-19 07:30:41,534 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:41,698 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:41,872 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/js/admin_script.js
+2026-01-19 07:30:42,030 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:42,224 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:42,416 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/admin_header.php
+2026-01-19 07:30:42,569 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:42,725 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:42,933 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/js/script.js
+2026-01-19 07:30:43,146 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:43,316 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:43,474 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/checkout.php
+2026-01-19 07:30:43,708 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:43,912 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:44,084 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/products.php
+2026-01-19 07:30:44,263 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:44,428 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:44,587 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/user_header.php
+2026-01-19 07:30:44,781 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:45,005 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:45,224 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/contact.php
+2026-01-19 07:30:45,396 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:45,565 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:45,729 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/footer.php
+2026-01-19 07:30:45,916 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:46,079 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:46,267 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/messages.php
+2026-01-19 07:30:46,432 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:46,603 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:46,752 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/admin_accounts.php
+2026-01-19 07:30:46,945 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:47,156 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:47,318 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/index.php
+2026-01-19 07:30:47,487 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:47,704 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:47,904 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/dashboard.php
+2026-01-19 07:30:48,054 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:48,238 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:48,431 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/update_profile.php
+2026-01-19 07:30:48,630 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:48,795 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:48,979 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/update_product.php
+2026-01-19 07:30:49,174 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:49,398 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:49,585 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/about.php
+2026-01-19 07:30:49,747 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:49,960 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:50,174 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/user_register.php
+2026-01-19 07:30:50,382 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:50,586 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:50,747 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/connect.php
+2026-01-19 07:30:50,912 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:51,100 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:51,306 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/placed_orders.php
+2026-01-19 07:30:51,498 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:51,664 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:51,850 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/orders.php
+2026-01-19 07:30:52,101 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:52,260 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:52,443 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/README.md
+2026-01-19 07:30:52,608 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:52,772 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:52,974 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/wishlist.php
+2026-01-19 07:30:53,134 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:53,327 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:53,511 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/user_login.php
+2026-01-19 07:30:53,681 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:53,910 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:54,149 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/admin_logout.php
+2026-01-19 07:30:54,386 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:54,600 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:54,798 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/quick_view.php
+2026-01-19 07:30:54,975 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:55,151 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:55,352 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/shop_db.sql
+2026-01-19 07:30:55,576 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:55,744 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:55,948 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/user_logout.php
+2026-01-19 07:30:56,122 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:56,294 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:56,451 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/wishlist_cart.php
+2026-01-19 07:30:56,640 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:56,807 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:57,068 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/register_admin.php
+2026-01-19 07:30:57,294 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:57,494 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:57,671 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/update_user.php
+2026-01-19 07:30:57,867 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:58,093 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:58,274 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/users_accounts.php
+2026-01-19 07:30:58,448 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 07:30:58,607 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7ff2a9c15f50>
+2026-01-19 07:30:58,792 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/home.php
+2026-01-19 07:30:58,981 - Knowledge - INFO - Loaded 36 files from persisted knowledge
+2026-01-19 07:30:59,148 - Knowledge - INFO - load persisted knowledge: end
+2026-01-19 07:30:59,338 - Knowledge - INFO - Redis support added with prefix knowledge:b10518l:
+2026-01-19 07:30:59,539 - Knowledge - INFO - Starting knowledge initialization for ID: IubKRA-b10518l
+2026-01-19 07:30:59,715 - Knowledge - INFO - 🔍 Checking Redis for build_id: b10518l
+2026-01-19 07:30:59,923 - Knowledge - INFO - 🔍 Full session ID: IubKRA-b10518l
+2026-01-19 07:31:00,100 - Knowledge - INFO - 🔍 Redis prefix will be: knowledge:b10518l:
+2026-01-19 07:31:00,292 - Knowledge - INFO - 🔍 Using attached load_from_redis() method
+2026-01-19 07:31:00,470 - Knowledge - INFO - 🔍 Attempting to load knowledge from Redis...
+2026-01-19 07:31:00,646 - Knowledge - INFO - 🔍 Using derived instance_id for Redis lookup: b10518l
+2026-01-19 07:31:00,814 - Knowledge - INFO - ✅ Redis cache found! Loading knowledge...
+2026-01-19 07:31:00,977 - Knowledge - INFO - ✅ Successfully loaded from Redis: 36 files
+2026-01-19 07:31:01,152 - Knowledge - INFO - ✅ Redis load complete: 36 files in 0.86s
+2026-01-19 07:31:01,301 - Knowledge - INFO - ⚡ Total Redis path: 0.86s (vs ~300s from disk)
+2026-01-19 07:31:01,522 - Knowledge - INFO - Saving knowledge to Redis...
+2026-01-19 07:31:01,725 - Knowledge - INFO - Knowledge saved to Redis successfully
