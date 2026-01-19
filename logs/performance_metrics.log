@@ -289,3 +289,355 @@
 2025-12-29 18:13:24,515 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 267, Duration: 0ms
 2025-12-29 18:13:24,668 - Knowledge - INFO - Saving knowledge to Redis...
 2025-12-29 18:13:24,902 - Knowledge - INFO - Knowledge saved to Redis successfully
+2025-12-29 20:32:08,120 - Knowledge - INFO - Created shared MongoDB connection pool
+2025-12-29 20:32:08,461 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2025-12-29 20:32:08,675 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2025-12-29 20:32:08,871 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=10, max_concurrent_llm_calls=50
+2026-01-19 06:07:53,221 - Knowledge - INFO - Created shared MongoDB connection pool
+2026-01-19 06:07:53,544 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2026-01-19 06:07:53,715 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2026-01-19 06:07:53,907 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=10, max_concurrent_llm_calls=50
+2026-01-19 06:07:54,827 - Knowledge - INFO - 🔍 _load_persisted_knowledge called - checking for Redis optimization
+2026-01-19 06:07:55,029 - Knowledge - WARNING - ❌ load_from_redis method not found - Redis support not attached
+2026-01-19 06:07:55,187 - Knowledge - INFO - load persisted knowledge: begin
+2026-01-19 06:07:55,763 - Knowledge - INFO - Persisted knowledge files in /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/.knowledge have been renamed to use .json
+2026-01-19 06:07:55,921 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:07:56,086 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:07:56,472 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:07:56,636 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:07:56,806 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/shop.php
+2026-01-19 06:07:57,068 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 85ms
+2026-01-19 06:07:58,491 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: shop.php, Duration: 1181ms
+2026-01-19 06:07:58,730 - Knowledge - INFO - persist search terms embedding for shop.php
+2026-01-19 06:07:58,887 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/shop.php
+2026-01-19 06:07:59,074 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:07:59,279 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:07:59,535 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:07:59,688 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:07:59,902 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/cart.php
+2026-01-19 06:08:00,198 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 115ms
+2026-01-19 06:08:00,808 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: cart.php, Duration: 415ms
+2026-01-19 06:08:01,035 - Knowledge - INFO - persist search terms embedding for cart.php
+2026-01-19 06:08:01,193 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/cart.php
+2026-01-19 06:08:01,368 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:01,528 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:01,804 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:01,987 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:02,152 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/css/style.css
+2026-01-19 06:08:02,468 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2026-01-19 06:08:03,275 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: css/style.css, Duration: 631ms
+2026-01-19 06:08:03,466 - Knowledge - INFO - persist search terms embedding for css/style.css
+2026-01-19 06:08:03,652 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/css/style.css
+2026-01-19 06:08:03,817 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:03,973 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:04,218 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:04,406 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:04,562 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/css/admin_style.css
+2026-01-19 06:08:04,797 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 84ms
+2026-01-19 06:08:05,298 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: css/admin_style.css, Duration: 285ms
+2026-01-19 06:08:05,555 - Knowledge - INFO - persist search terms embedding for css/admin_style.css
+2026-01-19 06:08:05,738 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/css/admin_style.css
+2026-01-19 06:08:05,936 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:06,116 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:06,382 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:06,593 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:06,789 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/search_page.php
+2026-01-19 06:08:07,029 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 95ms
+2026-01-19 06:08:07,735 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: search_page.php, Duration: 557ms
+2026-01-19 06:08:07,904 - Knowledge - INFO - persist search terms embedding for search_page.php
+2026-01-19 06:08:08,065 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/search_page.php
+2026-01-19 06:08:08,243 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:08,405 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:08,672 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:08,861 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:09,025 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/js/admin_script.js
+2026-01-19 06:08:09,299 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 91ms
+2026-01-19 06:08:12,866 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: js/admin_script.js, Duration: 3340ms
+2026-01-19 06:08:13,041 - Knowledge - INFO - persist search terms embedding for js/admin_script.js
+2026-01-19 06:08:13,246 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/js/admin_script.js
+2026-01-19 06:08:13,415 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:13,598 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:13,843 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:14,044 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:14,276 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/admin_header.php
+2026-01-19 06:08:14,545 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2026-01-19 06:08:14,979 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: components/admin_header.php, Duration: 269ms
+2026-01-19 06:08:15,128 - Knowledge - INFO - persist search terms embedding for components/admin_header.php
+2026-01-19 06:08:15,331 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/admin_header.php
+2026-01-19 06:08:15,517 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:15,681 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:15,950 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:16,095 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:16,256 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/js/script.js
+2026-01-19 06:08:16,546 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 103ms
+2026-01-19 06:08:17,228 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: js/script.js, Duration: 492ms
+2026-01-19 06:08:17,397 - Knowledge - INFO - persist search terms embedding for js/script.js
+2026-01-19 06:08:17,591 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/js/script.js
+2026-01-19 06:08:17,779 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:17,943 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:18,219 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:18,446 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:18,634 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/checkout.php
+2026-01-19 06:08:18,899 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2026-01-19 06:08:19,497 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: checkout.php, Duration: 423ms
+2026-01-19 06:08:19,651 - Knowledge - INFO - persist search terms embedding for checkout.php
+2026-01-19 06:08:19,820 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/checkout.php
+2026-01-19 06:08:20,037 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:20,238 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:20,532 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:20,727 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:20,889 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/products.php
+2026-01-19 06:08:21,174 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 93ms
+2026-01-19 06:08:21,584 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: admin/products.php, Duration: 223ms
+2026-01-19 06:08:21,745 - Knowledge - INFO - persist search terms embedding for admin/products.php
+2026-01-19 06:08:21,928 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/products.php
+2026-01-19 06:08:22,090 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:22,297 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:22,597 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:22,791 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:22,978 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/user_header.php
+2026-01-19 06:08:23,268 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 132ms
+2026-01-19 06:08:23,651 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: components/user_header.php, Duration: 199ms
+2026-01-19 06:08:23,820 - Knowledge - INFO - persist search terms embedding for components/user_header.php
+2026-01-19 06:08:23,993 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/user_header.php
+2026-01-19 06:08:24,183 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:24,400 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:24,641 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:24,812 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:24,988 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/contact.php
+2026-01-19 06:08:25,263 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 98ms
+2026-01-19 06:08:25,705 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: contact.php, Duration: 277ms
+2026-01-19 06:08:25,863 - Knowledge - INFO - persist search terms embedding for contact.php
+2026-01-19 06:08:26,048 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/contact.php
+2026-01-19 06:08:26,216 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:26,417 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:26,654 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:26,833 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:27,017 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/footer.php
+2026-01-19 06:08:27,302 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 96ms
+2026-01-19 06:08:27,814 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: components/footer.php, Duration: 341ms
+2026-01-19 06:08:27,991 - Knowledge - INFO - persist search terms embedding for components/footer.php
+2026-01-19 06:08:28,196 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/footer.php
+2026-01-19 06:08:28,397 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:28,563 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:28,828 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:28,993 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:29,200 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/messages.php
+2026-01-19 06:08:29,469 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 79ms
+2026-01-19 06:08:29,888 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: admin/messages.php, Duration: 203ms
+2026-01-19 06:08:30,078 - Knowledge - INFO - persist search terms embedding for admin/messages.php
+2026-01-19 06:08:30,275 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/messages.php
+2026-01-19 06:08:30,479 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:30,649 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:30,939 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:31,103 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:31,274 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/admin_accounts.php
+2026-01-19 06:08:31,584 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 91ms
+2026-01-19 06:08:32,244 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: admin/admin_accounts.php, Duration: 481ms
+2026-01-19 06:08:32,414 - Knowledge - INFO - persist search terms embedding for admin/admin_accounts.php
+2026-01-19 06:08:32,603 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/admin_accounts.php
+2026-01-19 06:08:32,788 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:32,953 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:33,192 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:33,361 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:33,498 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/index.php
+2026-01-19 06:08:33,784 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 83ms
+2026-01-19 06:08:34,211 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: admin/index.php, Duration: 209ms
+2026-01-19 06:08:34,391 - Knowledge - INFO - persist search terms embedding for admin/index.php
+2026-01-19 06:08:34,553 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/index.php
+2026-01-19 06:08:34,740 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:34,935 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:35,165 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:35,382 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:35,548 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/dashboard.php
+2026-01-19 06:08:35,847 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 82ms
+2026-01-19 06:08:36,573 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: admin/dashboard.php, Duration: 541ms
+2026-01-19 06:08:36,729 - Knowledge - INFO - persist search terms embedding for admin/dashboard.php
+2026-01-19 06:08:36,982 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/dashboard.php
+2026-01-19 06:08:37,153 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:37,345 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:37,631 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:37,775 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:37,984 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/update_profile.php
+2026-01-19 06:08:38,274 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 91ms
+2026-01-19 06:08:38,722 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: admin/update_profile.php, Duration: 228ms
+2026-01-19 06:08:38,925 - Knowledge - INFO - persist search terms embedding for admin/update_profile.php
+2026-01-19 06:08:39,088 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/update_profile.php
+2026-01-19 06:08:39,323 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:39,511 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:39,791 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:40,014 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:40,155 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/update_product.php
+2026-01-19 06:08:40,452 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 81ms
+2026-01-19 06:08:40,921 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: admin/update_product.php, Duration: 241ms
+2026-01-19 06:08:41,090 - Knowledge - INFO - persist search terms embedding for admin/update_product.php
+2026-01-19 06:08:41,293 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/update_product.php
+2026-01-19 06:08:41,476 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:41,683 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:41,933 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:42,129 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:42,305 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/about.php
+2026-01-19 06:08:42,597 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 84ms
+2026-01-19 06:08:43,163 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: about.php, Duration: 367ms
+2026-01-19 06:08:43,324 - Knowledge - INFO - persist search terms embedding for about.php
+2026-01-19 06:08:43,471 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/about.php
+2026-01-19 06:08:43,666 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:43,873 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:44,127 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:44,355 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:44,562 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/user_register.php
+2026-01-19 06:08:44,815 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 97ms
+2026-01-19 06:08:45,229 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: user_register.php, Duration: 243ms
+2026-01-19 06:08:45,384 - Knowledge - INFO - persist search terms embedding for user_register.php
+2026-01-19 06:08:45,621 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/user_register.php
+2026-01-19 06:08:45,773 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:45,930 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:46,173 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:46,366 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:46,575 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/connect.php
+2026-01-19 06:08:46,886 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 104ms
+2026-01-19 06:08:47,273 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: components/connect.php, Duration: 213ms
+2026-01-19 06:08:47,447 - Knowledge - INFO - persist search terms embedding for components/connect.php
+2026-01-19 06:08:47,638 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/connect.php
+2026-01-19 06:08:47,820 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:48,056 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:48,298 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:48,468 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:48,660 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/placed_orders.php
+2026-01-19 06:08:48,903 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 98ms
+2026-01-19 06:08:49,311 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: admin/placed_orders.php, Duration: 210ms
+2026-01-19 06:08:49,493 - Knowledge - INFO - persist search terms embedding for admin/placed_orders.php
+2026-01-19 06:08:49,647 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/placed_orders.php
+2026-01-19 06:08:49,805 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:49,980 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:50,254 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:50,469 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:50,623 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/orders.php
+2026-01-19 06:08:50,868 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 95ms
+2026-01-19 06:08:51,427 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: orders.php, Duration: 355ms
+2026-01-19 06:08:51,617 - Knowledge - INFO - persist search terms embedding for orders.php
+2026-01-19 06:08:51,775 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/orders.php
+2026-01-19 06:08:52,011 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:52,186 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:52,422 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:52,622 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:52,814 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/README.md
+2026-01-19 06:08:53,083 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 78ms
+2026-01-19 06:08:53,471 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: README.md, Duration: 230ms
+2026-01-19 06:08:53,633 - Knowledge - INFO - persist search terms embedding for README.md
+2026-01-19 06:08:53,837 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/README.md
+2026-01-19 06:08:54,052 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:54,250 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:54,549 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:54,700 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:54,865 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/wishlist.php
+2026-01-19 06:08:55,197 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 125ms
+2026-01-19 06:08:55,703 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: wishlist.php, Duration: 336ms
+2026-01-19 06:08:55,879 - Knowledge - INFO - persist search terms embedding for wishlist.php
+2026-01-19 06:08:56,045 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/wishlist.php
+2026-01-19 06:08:56,223 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:56,459 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:56,750 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:56,906 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:57,096 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/user_login.php
+2026-01-19 06:08:57,402 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 94ms
+2026-01-19 06:08:57,788 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: user_login.php, Duration: 229ms
+2026-01-19 06:08:57,989 - Knowledge - INFO - persist search terms embedding for user_login.php
+2026-01-19 06:08:58,161 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/user_login.php
+2026-01-19 06:08:58,346 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:58,550 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:58,827 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:08:58,991 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:08:59,175 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/admin_logout.php
+2026-01-19 06:08:59,499 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 104ms
+2026-01-19 06:08:59,907 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: components/admin_logout.php, Duration: 253ms
+2026-01-19 06:09:00,085 - Knowledge - INFO - persist search terms embedding for components/admin_logout.php
+2026-01-19 06:09:00,282 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/admin_logout.php
+2026-01-19 06:09:00,468 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:09:00,628 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:09:00,899 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:09:01,107 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:09:01,272 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/quick_view.php
+2026-01-19 06:09:01,535 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 97ms
+2026-01-19 06:09:02,026 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: quick_view.php, Duration: 320ms
+2026-01-19 06:09:02,229 - Knowledge - INFO - persist search terms embedding for quick_view.php
+2026-01-19 06:09:02,399 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/quick_view.php
+2026-01-19 06:09:02,567 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:09:02,738 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:09:02,997 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:09:03,203 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:09:03,411 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/shop_db.sql
+2026-01-19 06:09:03,686 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 91ms
+2026-01-19 06:09:04,111 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: shop_db.sql, Duration: 241ms
+2026-01-19 06:09:04,303 - Knowledge - INFO - persist search terms embedding for shop_db.sql
+2026-01-19 06:09:04,470 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/shop_db.sql
+2026-01-19 06:09:04,635 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:09:04,830 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:09:05,080 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:09:05,267 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:09:05,463 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/user_logout.php
+2026-01-19 06:09:05,760 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 96ms
+2026-01-19 06:09:06,204 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: components/user_logout.php, Duration: 301ms
+2026-01-19 06:09:06,398 - Knowledge - INFO - persist search terms embedding for components/user_logout.php
+2026-01-19 06:09:06,566 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/user_logout.php
+2026-01-19 06:09:06,729 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:09:06,902 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:09:07,225 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:09:07,428 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:09:07,583 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/wishlist_cart.php
+2026-01-19 06:09:07,908 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 98ms
+2026-01-19 06:09:08,339 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: components/wishlist_cart.php, Duration: 251ms
+2026-01-19 06:09:08,501 - Knowledge - INFO - persist search terms embedding for components/wishlist_cart.php
+2026-01-19 06:09:08,733 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/components/wishlist_cart.php
+2026-01-19 06:09:08,921 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:09:09,142 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:09:09,409 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:09:09,619 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:09:09,837 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/register_admin.php
+2026-01-19 06:09:10,106 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 103ms
+2026-01-19 06:09:10,573 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: admin/register_admin.php, Duration: 227ms
+2026-01-19 06:09:10,736 - Knowledge - INFO - persist search terms embedding for admin/register_admin.php
+2026-01-19 06:09:10,910 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/register_admin.php
+2026-01-19 06:09:11,095 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:09:11,252 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:09:11,509 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:09:11,685 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:09:11,889 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/update_user.php
+2026-01-19 06:09:12,180 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 103ms
+2026-01-19 06:09:12,607 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: update_user.php, Duration: 267ms
+2026-01-19 06:09:12,802 - Knowledge - INFO - persist search terms embedding for update_user.php
+2026-01-19 06:09:13,030 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/update_user.php
+2026-01-19 06:09:13,187 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:09:13,350 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:09:13,638 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:09:13,837 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:09:14,012 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/users_accounts.php
+2026-01-19 06:09:14,309 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 107ms
+2026-01-19 06:09:14,791 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: admin/users_accounts.php, Duration: 280ms
+2026-01-19 06:09:14,965 - Knowledge - INFO - persist search terms embedding for admin/users_accounts.php
+2026-01-19 06:09:15,196 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/admin/users_accounts.php
+2026-01-19 06:09:15,399 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:09:15,559 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:09:15,847 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/E-commerce-PHP-Application-301945.git:kavia-master
+2026-01-19 06:09:16,064 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f1b78b10ed0>
+2026-01-19 06:09:16,242 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/home.php
+2026-01-19 06:09:16,512 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 103ms
+2026-01-19 06:09:17,114 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: home.php, Duration: 373ms
+2026-01-19 06:09:17,284 - Knowledge - INFO - persist search terms embedding for home.php
+2026-01-19 06:09:17,487 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/301945/b10518l/E-commerce-PHP-Application-301945/home.php
+2026-01-19 06:09:17,632 - Knowledge - INFO - Loaded 36 files from persisted knowledge
+2026-01-19 06:09:17,797 - Knowledge - INFO - load persisted knowledge: end
+2026-01-19 06:09:17,989 - Knowledge - INFO - Redis support added with prefix knowledge:b10518l:
+2026-01-19 06:09:18,281 - Knowledge - INFO - Starting knowledge initialization for ID: AtnZyu-b10518l
+2026-01-19 06:09:18,492 - Knowledge - INFO - 🔍 Checking Redis for build_id: b10518l
+2026-01-19 06:09:18,651 - Knowledge - INFO - 🔍 Full session ID: AtnZyu-b10518l
+2026-01-19 06:09:18,825 - Knowledge - INFO - 🔍 Redis prefix will be: knowledge:b10518l:
+2026-01-19 06:09:18,979 - Knowledge - INFO - 🔍 Using attached load_from_redis() method
+2026-01-19 06:09:19,133 - Knowledge - INFO - 🔍 Attempting to load knowledge from Redis...
+2026-01-19 06:09:19,330 - Knowledge - INFO - 🔍 Using derived instance_id for Redis lookup: b10518l
+2026-01-19 06:09:19,507 - Knowledge - INFO - ✅ Redis cache found! Loading knowledge...
+2026-01-19 06:09:19,702 - Knowledge - INFO - ✅ Successfully loaded from Redis: 36 files
+2026-01-19 06:09:19,898 - Knowledge - INFO - ✅ Redis load complete: 36 files in 0.92s
+2026-01-19 06:09:20,102 - Knowledge - INFO - ⚡ Total Redis path: 0.92s (vs ~300s from disk)
+2026-01-19 06:09:20,311 - Knowledge - INFO - Saving knowledge to Redis...
+2026-01-19 06:09:20,518 - Knowledge - INFO - Knowledge saved to Redis successfully
